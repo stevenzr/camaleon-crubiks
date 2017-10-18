@@ -1,11 +1,4 @@
 GIT
-  remote: git://github.com/owen2345/cama_subscriber.git
-  revision: 432db16e67c584d949b183acf38a8ac8ddd0e7b7
-  specs:
-    cama_subscriber (0.0.4)
-      rails
-
-GIT
   remote: https://github.com/codahale/bcrypt-ruby.git
   revision: f2db689ba567d1a018f4dacb1ccf909adc93e887
   specs:
@@ -222,7 +215,6 @@ PLATFORMS
 DEPENDENCIES
   bcrypt!
   byebug
-  cama_subscriber!
   camaleon_cms (>= 2.4.4.5)
   coffee-rails (~> 4.1.0)
   coffee-script-source (= 1.8.0)
