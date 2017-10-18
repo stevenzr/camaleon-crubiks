@@ -1,4 +1,4 @@
-module Themes::PerspectiveTheme::MainHelper
+module Themes::test::MainHelper
   def self.included(klass)
     klass.helper_method [:perspective_social_networks] rescue "" # here your methods accessible from views
   end
