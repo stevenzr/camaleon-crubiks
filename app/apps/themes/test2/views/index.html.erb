@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>CRUBIKS</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/test/assests/css/style.css.scss">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <%= stylesheet_link_tag theme_asset_path("css/style.css") %>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+
+  
+<!--- Header -->
+ 
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <%= image_tag("snow.png") %>
+               
+                <div class="carousel-caption">
+                    <h1>Welcome</h1>
+                    <br>
+                    <button type="button" class="btn bt-default">Get started</button>
+                </div>
+            </div> <!--- end active-->
+            <div class="item">
+                <img src="images/snow.png">
+            </div>
+            <div class="item">
+                <img src="images/red.png">
+            </div>
+        </div>
+        <!--  start slider control-->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right " aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+    
+
+    <div id="page-header" class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 wow bounceInLeft">
+                    <h1>Crubiks</h1>
+                    <p>Be one of us</p>
+                </div>
+                <div class="col-lg-6 col-md-6 wow bounceInRight">
+                 <img src="<%= current_site.the_logo(theme_asset_url('images/logo2.png')) %>" alt=" " />
+             </div>
+            </div>
+        </div>
+    </div>
+
+ 
+  
+<!--- End Header -->
+ 
+ <!--- Services -->
+ 
+ <div id="services" class="services">
+     <div class="container">
+         <h2 class="wow fadeInUp">Services</h2>
+         
+         <div class="row">
+             <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="1.8s">
+                 <i class="fa fa-desktop" aria-hidden="true"></i>
+                 <h4>web development</h4>
+                 <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>
+             </div>
+             <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="1.4s">
+                 <i class="fa fa-mobile" aria-hidden="true"></i>
+                 <h4>Mobile Apps</h4>
+                 <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>
+             </div>
+             
+         </div>
+     </div>
+ </div>
+  
+<!--- End Services -->
+ 
+<!--- about us -->
+
+<div id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <p>crubiks is a software development startup focusing in web and mobile application. Established in Vancouver, Canada, our clients are primarily located in west coast Canada – and we are continuously working hard to expand throughout North America.</p>
+
+                        <p>We adapted the Lean methodology for our software development. This allows us to have a quick turnaround and the most cost-efficient for our solutions. In return, our clients can also have quick feedbacks on their initial investment.</p>
+
+                        <p>We also maximize the use of cloud computing and technology as part of our solution. Cloud computing and technology is considered to be latest state-of-the-art. It allows us to work from anywhere and everywhere – and allows you to work from anywhere and everywhere. As a startup, we want you to have a well-balanced lifestyle between work and personal in a world where everything is connected.</p>
+
+                        <p>As we digitize the world, it is important for us to continuously work as a team whether you are in the office or as a digital-nomad and to continuously create values in what we do. Strive in what you do – and progress with excellence.</p>
+
+                        <p>You are our core, you are our value, you are our cru – and we would like to thank you for being one of us!</p>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+ <!--- End about us -->
+ 
+ 
+
+<div id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <h2 class="wow fadeInUp">Contact</h2>
+            
+            <div class="col-lg-6 col-md-6">
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="0.8s">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Full Name">
+                </div>
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.2s">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Email Address">
+                </div>
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.6s">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Phone Number">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="input-group wow fadeInUp" data-wow-delay="2s">
+                    <textarea name="" id="" cols="80" rows="6" class="form-control"></textarea>
+                </div>
+                <button class="btn btn-lg wow fadeInUp" data-wow-delay="2.4s">Submit Your Message</button>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+ <!--- End Contact -->
+ 
+ 
+ <!--- Footer -->
+ 
+ <div id="footer" class="footer">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-6 col-md-6">
+                 <h4 class="wow fadeInUp">Contact Us</h4>
+                 <p><i class="fa fa-home" aria-hidden="true"></i> Vancouver Canada</p>
+                 <p><i class="fa fa-envelope" aria-hidden="true"></i> info@crubiks.com</p>
+                 <p><i class="fa fa-phone" aria-hidden="true"></i> +00000000</p>
+                 
+             </div>
+             
+             <div class="col-lg-6 col-md-6">
+                 <h4>Stay in touch</h4>
+                 <i class="social fa fa-facebook" aria-hidden="true"></i>
+                 <i class="social fa fa-twitter" aria-hidden="true"></i>
+                <i class="social fa fa-github" aria-hidden="true"></i><br>
+               
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+   
+   
+   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name" : "Test2",
+  "description" : "",
+  "thumb" : "images/image.png",
+  "helpers": [
+    "Themes::Test2::MainHelper"
+  ],
+  "hooks": {
+    "on_active": ["test2_on_install_theme"],
+    "on_inactive": ["test2_on_uninstall_theme"],
+    "on_theme_settings": ["test2_settings"]
+    //here all your hooks
+  }
+}

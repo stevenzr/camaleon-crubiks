@@ -1,0 +1,14 @@
+{
+  "name" : "Imperial",
+  "description" : "",
+  "thumb" : "images/image.png",
+  "helpers": [
+    "Themes::Imperial::MainHelper"
+  ],
+  "hooks": {
+    "on_active": ["imperial_on_install_theme"],
+    "on_inactive": ["imperial_on_uninstall_theme"],
+    "on_theme_settings": ["imperial_settings"]
+    //here all your hooks
+  }
+}
