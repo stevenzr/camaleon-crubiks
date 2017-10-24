@@ -492,7 +492,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background-image: url('/assets/about-img.jpg') left top no-repeat;
+  background-image: url('/assets/images/about-img.jpg') left top no-repeat;
 }
 
 #about .about-content {
