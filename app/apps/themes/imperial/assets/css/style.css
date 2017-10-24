@@ -525,9 +525,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
- .service-icon {
-  width: auto;
-  padding-bottom: 100%;
+ #services .service-icon {
+ 
   float: left;
   background: #03C4EB;
   padding: 16px;
@@ -536,7 +535,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 1px solid #03C4EB;
 }
 
+.mobile-icon{
+width: 30px;
+height: 30px;
 
+}
 
 #services .service-icon i {
   color: #fff;
