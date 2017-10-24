@@ -525,7 +525,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-#services .service-icon {
+ .service-icon {
 
   float: left;
   background: #03C4EB;
