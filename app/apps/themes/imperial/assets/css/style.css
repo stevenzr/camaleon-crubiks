@@ -79,6 +79,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.page-layout {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
 /*--------------------------------------------------------------
 # Welcome
 --------------------------------------------------------------*/
@@ -484,7 +492,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background-image: url(../images/about-img.jpg) left top no-repeat;
+  background-image: url('/assets/about-img.jpg') left top no-repeat;
 }
 
 #about .about-content {
@@ -518,6 +526,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-icon {
+
   float: left;
   background: #03C4EB;
   padding: 16px;
