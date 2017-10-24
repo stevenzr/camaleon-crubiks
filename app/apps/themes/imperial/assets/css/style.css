@@ -526,10 +526,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
  .service-icon {
-
+  width: auto;
+  padding-bottom: 100%;
   float: left;
   background: #03C4EB;
-  padding: 1em;
+  padding: 0.7em;
   border-radius: 50%;
   transition: 0.5s;
   border: 1px solid #03C4EB;
