@@ -188,6 +188,15 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+.header-nav {
+  background: #111;
+  padding: 20px 0;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+
 #header {
   background: #111;
   padding: 20px 0;
@@ -239,6 +248,15 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
+.navbar-header{
+  
+}
+
+.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
@@ -492,7 +510,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background-image: url('/assets/images/about-img.jpg') left top no-repeat;
+  background-image: url("../images/about-img.jpg") left top no-repeat;
 }
 
 #about .about-content {
@@ -510,6 +528,35 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-text:last-child {
+  margin-bottom: 0;
+}
+
+/* What we do Section
+--------------------------------*/
+#what-we-do {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#what-we-do .what-we-do-container {
+  background-image: url('/assets/images/about-img.jpg') left top no-repeat;
+}
+
+#what-we-do .what-we-do-content {
+  background: #fff;
+}
+
+#what-we-do .what-we-do-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#what-we-do .what-we-do-text {
+  line-height: 26px;
+}
+
+#what-we-do .what-we-do-text:last-child {
   margin-bottom: 0;
 }
 
@@ -859,7 +906,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #footer {
   background: #111;
-  padding: 30px 0;
+  padding: 20px 0;
   color: #fff;
 }
 
@@ -873,3 +920,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+#footer .social {
+   font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#footer .copyright{
+  padding-top: 30px;
+}
+
+#footer .social:hover {
+  background: white;
+}
+
+#services .service-item:hover .service-icon
