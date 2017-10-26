@@ -1,7 +1,7 @@
 <!-- header -->
 <div class="header-nav">
     <div class="container">
-        <nav class="imperial-navbar">
+        <nav class="navbar navbar-default">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -29,5 +29,26 @@
 </div>
 <!-- header -->
 <!-- header-bottom -->
-
+<div class="header-bottom">
+    <div class="container">
+        <div class="header-bottom-right">
+            <div class="pull-left">
+                <%= raw current_site.draw_languages("language list-inline pull-right", true) %>
+            </div>
+            <div class="header-bottom-right2">
+                <ul>
+                    <%= raw perspective_social_networks %>
+                </ul>
+            </div>
+            <div class="header-bottom-right1">
+                <ul>
+                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:<%= current_theme.get_option('email_info', 'default_email@example.com') %>"><%= current_theme.get_option('email_info', 'default_email@example.com') %></a></li>
+                    <li><span class="glyphicon glyphicon-phone" aria-hidden="true"></span><%= current_theme.get_option('phone_info', '+0943 976 908') %></li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <%= render 'camaleon_cms/flash_messages' %>
+</div>
 <!-- //header-bottom -->

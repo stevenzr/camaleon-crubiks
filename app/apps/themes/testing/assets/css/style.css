@@ -188,10 +188,6 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.imperial-navbarr{
-  background-color: #111;
-
-}
 
 .header-nav {
   background: #111;
@@ -256,17 +252,13 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-/*add this */
 .navbar-header{
-  color: #111;
-  background-color: #111;
-  background: #111;
+  
 }
-/*add this */
+
 .navbar-brand {
   padding-top: 0px;
   padding-bottom: 10px;
-  background: #111;
 }
 
 .nav-menu, .nav-menu * {
@@ -337,12 +329,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Nav Meu Styling */
-/*add this */
-.nav .navbar-nav a{
-    color: #fff;
-}
-
-
 .nav-menu a {
   padding: 10px 15px;
   text-decoration: none;
