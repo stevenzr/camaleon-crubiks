@@ -190,6 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .imperial-navbarr{
   background-color: #111;
+  background: rgba(0, 0, 0, 0.85);
 
 }
 
@@ -197,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #111;
   padding: 20px 0;
   height: 90px;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 
@@ -259,14 +260,15 @@ h1, h2, h3, h4, h5, h6 {
 /*add this */
 .navbar-header{
   color: #111;
-  background-color: #111;
+  background-color: #fff;
   background: #111;
 }
 /*add this */
 .navbar-brand {
   padding-top: 0px;
   padding-bottom: 10px;
-  background: #111;
+  background-color: #666666;
+  background: rgba(26, 26, 26, 0.9);
 }
 
 .nav-menu, .nav-menu * {
