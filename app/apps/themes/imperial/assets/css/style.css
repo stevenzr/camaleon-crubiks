@@ -528,8 +528,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background-image: url("../images/about-img.jpg") left top no-repeat;
-  background: url(<%= images 'about-img.jpg' %>);
+  background-image: url('about-img.jpg') left top no-repeat;
+
 }
 
 #about .about-content {
