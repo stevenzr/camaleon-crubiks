@@ -17,7 +17,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="navigation-menu">
                     <% cama_menu_parse_items(current_site.nav_menus.find_by_slug('main_menu').children).each do |item| %>
                         <li class="<%= item[:current_item] ? 'act' : 'hvr-bubble-bottom' %>"><a class="<%= 'scroll' if item[:url].start_with?('#') %>" href="<%= item[:url] %>"><%= item[:label] %></a></li>
                     <% end %>

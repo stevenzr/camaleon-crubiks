@@ -199,6 +199,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0;
   height: 90px;
   background: rgba(0, 0, 0, 0.9);
+
 }
 
 
@@ -258,6 +259,22 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
 /*add this */
+.navigation-menu li{
+  float: right;
+  display: inline;
+  margin-top: 15px;
+  
+}
+
+.navigation-menu a {
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navigation-menu a:hover{
+  background-color: #2a2a44;
+}
+
 .navbar-header{
   color: #111;
   background-color: #fff;
